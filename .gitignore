@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Django
+db.sqlite3
+staticfiles/
+backend/ingestion_batches/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Local tooling
+.DS_Store
+Thumbs.db
+*.log
+*.err.log

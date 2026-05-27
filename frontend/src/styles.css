@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  background: #fafafa;
+}
+
+body {
+  margin: 0;
+}
