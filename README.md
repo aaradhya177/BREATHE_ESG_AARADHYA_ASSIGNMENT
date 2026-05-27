@@ -2,7 +2,7 @@
 
 A Django REST + React prototype that ingests carbon emissions data from three enterprise source types, normalizes it into a unified model, and surfaces a review dashboard where analysts can approve or flag records before audit.
 
-**Live URL:** `[add after Render deployment]`  
+**Live URL:** https://breathe-esg-aaradhya-assignment.vercel.app/
 **Stack:** Django 4.2, Django REST Framework, PostgreSQL, React 18, Vite, Tailwind CSS
 
 ## What It Does
