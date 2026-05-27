@@ -2,7 +2,7 @@
 nixPkgs = ["python311"]
 
 [phases.install]
-cmds = ["cd backend && python3.11 -m ensurepip && python3.11 -m pip install -r requirements.txt"]
+cmds = ["cd backend && python3.11 -m pip install --break-system-packages -r requirements.txt"]
 
 [start]
 cmd = "cd backend && python3.11 manage.py migrate --noinput && gunicorn breathe.wsgi:application --bind 0.0.0.0:$PORT"
